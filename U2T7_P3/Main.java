@@ -1,23 +1,14 @@
 public class Main {
     public static void main(String[] args) {
         CustomStringMethods methods = new CustomStringMethods();
-        String str = methods.halvesReversed("computer");  //even # of letters
-        System.out.println(str);
-        str = methods.halvesReversed("computers");        //odd # of letters
-        System.out.println(str);
-        str = methods.halvesReversed("sky");
-        System.out.println(str);
-        str = methods.halvesReversed("weekend");
-        System.out.println(str);
-        str = methods.halvesReversed("an");
-        System.out.println(str);
-        str = methods.halvesReversed("I");
-        System.out.println(str);
-        str = methods.halvesReversed("see you soon");
-        System.out.println(str);
-        str = methods.halvesReversed("see you later!");
-        System.out.println(str);
-        
-
+        String str = "Mango";
+        System.out.println(methods.longerThan(str,4));
+        System.out.println(methods.funnyString(str,3));
+        System.out.println(methods.halvesReversed(str));
+        System.out.println(methods.pigLatin(str));
+        System.out.println(methods.removeCharacter(str, 1));
+        System.out.println(methods.insertAt(str, "fruit flies like a ", "M"));
+        System.out.println(methods.endUp(str, 2));
+        System.out.println(methods.yellOrWhisper(str));
     }
 }
